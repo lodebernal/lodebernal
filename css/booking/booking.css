@@ -1,0 +1,268 @@
+div.relativeB {
+    position: relative;
+    width: auto;
+    height: 40%;
+    /* right: 0; */
+    top: 33mm;
+    background-color: #9f7722;
+}
+
+div.relativeB1 {
+    position: relative;
+    width: 40%;
+    height: 30%;
+    left: 25mm;
+    top: 30mm;
+    margin-left: 5%;
+    /* text-align: center; */
+    /* background-color: #9f7722; */
+}
+
+div.relativeB2 {
+    position: relative;
+    width: 35%;
+    height: 30%;
+    left: 25mm;
+    top: 30mm;
+    margin-left: 5%;
+    /* text-align: center; */
+    /* background-color: #9f7722; */
+}
+
+div.relativeB3 {
+    position: relative;
+    width: 35%;
+    height: 30%;
+    left: 25mm;
+    top: 50mm;
+    margin-left: 5%;
+    /* text-align: center; */
+    background-color: #9f7722;
+}
+
+.font-date{
+    font-size: 15px;
+    color: white;
+}
+
+.inp-size{
+    font-size: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+
+  .grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    }
+
+  .grid img {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 100%;
+  }
+
+
+  .containerButton {
+    position: relative;
+    text-align: right;
+  }
+
+  div.relativeB4 {
+    position: relative;
+    /* text-align: right; */
+    background-color:#d29e5a;
+  }
+
+  div.relativeText {
+    position: relative;
+    margin-top: 15%;
+    /* margin-right: 50%; */
+    padding: 13%;
+    color: white;
+    /* text-align: right; */
+    /* background-color:#d29e5a; */
+  }
+
+  div.relativeButtons1 {
+    position: relative;
+    background-color: #c9ab87;
+    text-align: center;
+    padding: 5%;
+    color: white;
+    font-size: 12px;
+  }
+
+  div.relativeButtons2 {
+    position: relative;
+    background-color: #6d180f;
+    text-align: center;
+    padding: 5%;
+    color: white;
+    font-size: 12px;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #6d180f;
+    padding: 8px;
+    width: 21%;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+  }
+
+  #alfSpecial{
+    width: 30%;
+  }
+
+  #alfSpecial2{
+    width: 45%;
+  }
+
+  .text8 {
+    font-size: 40px;
+}
+
+.alfGrid{
+    width: 570px;
+}
+
+
+#submit {
+    background-color: #6d180f;
+    padding: .5em;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 14px;
+    width: 90mm;
+    text-decoration: none;
+    border: none;
+  }
+  
+  #submit:hover {
+    border: none;
+    background: orange;
+    box-shadow: 0px 0px 1px #6d180f;
+  }
+
+  #submit{
+    width: 100%;
+  }
+
+  #cancel {
+    background-color:#c9ab87;
+    padding: .5em;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 14px;
+    width: 90mm;
+    text-decoration: none;
+    border: none;
+  }
+  
+  #cancel:hover {
+    border: none;
+    background: orange;
+    box-shadow: 0px 0px 1px #c9ab87;
+  }
+
+  #cancel{
+    width: 100%;
+  }
+
+@media screen and (max-width: 470px){
+    /* div.relativeB{
+        width: 70%;
+    } */
+    /* .font-date{
+        font-size: 10px;
+    } */
+    /* .inp-size{
+        font-size: 0.6rem;
+    } */
+    /* #alfSpecial{
+        width: 0%;
+        height: 0%;
+    } */
+
+    div.relativeText {
+        margin-top: 0%;
+    }
+
+    div.relativeB1{
+        left: 0%;
+        width: auto;
+    }
+    div.relativeB2{
+      left: 0%;
+      right: 0;
+      /* width: auto; */
+  }
+
+    #alfSpecial2{
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    /* div.relativeB{
+        width: 70%;
+    } */
+    /* .font-date{
+        font-size: 10px;
+    } */
+    .inp-size{
+        font-size: 0.8rem;
+    }
+
+    div.relativeText {
+        margin-top: 0%;
+    }
+
+    .text8 {
+        font-size: 25px;
+    }
+
+    /* div.relativeB1{
+      width: auto;
+    } */
+    div.relativeB2{
+      width: auto;
+  }
+
+  div.relativeB1{
+    width: auto;
+  }
+
+  #alfSpecial2{
+    width: 100%;
+  }
+
+}

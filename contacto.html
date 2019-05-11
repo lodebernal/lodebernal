@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/contacto/contacto.css">
+    <link href="css/fonts/LibreBaskerville.css" rel="stylesheet">
+    <link href="css/fonts/Montserrat.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/responisve.css">
+    <title>LO DE BERNAL | CONTACTO</title>
+    <link rel="icon" type="image/ico" href="img/logo.png"/>
+</head>
+<style>
+</style>
+<body>
+    <header>
+        <input type="checkbox" id="btnmenu"/>
+        <label for="btnmenu"><img src="img/menu.png" alt="image" /></label>
+        <nav>
+            <ul>
+                <li><img src="img/logo.png" alt="" width="70px" height="70px"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="actividades.html">Actividades</a></li>
+                <li><a href="#section4">English</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="w3-row w3-border">
+            <div class="w3-container w3-half" style="width: 100%;">
+               <div class="form-1">
+                    <h1 class="text8" style="font-family:Libre Baskerville;">Contacto</h1>
+                    <div class="form-2">
+                        <form class="form-inline"action="/action_page.php">
+                            <label for="text">Nombre</label>
+                            <input type="text" id="email" >
+                            <label for="text">Apellido</label>
+                            <input type="text" id="pwd">
+                            <label for="text">Télefono</label>
+                            <input type="text" id="pwd" >
+                            <label for="text">Correo</label>
+                            <input type="text" id="pwd">
+                        </form>
+                        </form>
+                    </div>
+                    </div>
+               </div> 
+               <div class="w3-container w3-half" style="width: 100%; height: 75px;"></div>
+               <div class="w3-container w3-half" style="width: 100%; text-align: center;  padding: 0%">
+                 <h2 class="full-width-tinted" style="font-family:Montserrat;" >OBSERVACIONES</h2>
+             </div>
+             <div class="w3-container w3-half"  style="width: 100%; margin-top: 2% ">
+                <div class="relativeContacto" style="font-family:Montserrat;" >
+                    - Tarifa confirmada en habitación para una o dos personas, el ingreso de más personas <br>
+                    a la habitación está sujeto a disponibilidad y aplican cargos adicionales. <br>
+                    - Propiedad 100% NO Fumador <br>
+                    - No se permite el ingreso de mascotas. <br>
+                    - Nos reservamos el derecho de admisión. <br>
+                    - Salida anticipada a la fecha reservada tiene una penalidad de $50.00 + Impuestos. <br>
+                    por noche no utilizada. <br>
+                    - Late Check Out: $40.00 + Impuestos hasta las 16:00 hrs. (sujeto a disponibilidad) <br>
+                    - Las tarifas están sujetas a cambios sin previo aviso.  <br>
+                    - Todas las reservaciones deben ser canceladas o modificadas 72 horas antes de la <br>
+                    fecha de llegada.
+                </div>
+            </div>
+            <div class="w3-container w3-half" style="width: 100%;">
+                <div class="relativeContacto" style="margin-top: 5%;">
+                <div class="container">
+                    <div>
+                        <button onclick="document.getElementById('id01').style.display='block'" style="font-family:Montserrat;" id="cancel">Salir</button>
+                    </div>
+                    <div>
+                        <a href="#"><button style="font-family:Montserrat;" id="submit">Hacer reservación</button></a>
+                    </div>
+                </div>
+            </div>
+            </div> 
+            <div class="w3-container w3-half" style="width: 100%; padding: 0%; margin-top: 5%; background: #f4f2ea; color:#9f7722">
+                <div class="w3-container w3-half" id="f1">
+                    <p style="font-family:Montserrat; font-size: 13px">Tel: (502) 78323242</p>
+                    <p style="font-family:Montserrat; font-size: 13px">reservaciones@lodebernal.com</p>
+                </div>
+                <div class="w3-container w3-half" id="f2">
+                    <table>
+                        <th><img src="img/map.png" alt=""></th>
+                        <th><img src="img/waze.png" alt=""></th>
+                        <th><img src="img/trip.png" alt=""></th>
+                        <th><img src="img/ig.png" alt=""></th>
+                        <th><img src="img/fb.png" alt=""></th>
+                    </table>
+                </div>
+                <div class="w3-container w3-half" id="f3">
+                    <p style="font-family:Montserrat; font-size: 13px">1A Calle Poniente, #23</p>
+                    <p style="font-family:Montserrat; font-size: 13px">Política de privacidad y cookies</p>
+                </div>
+            </div>
+        </div>
+    </main> 
+
+    <!-- Modal salir -->
+
+    <div class="w3-container">
+        <!-- <h2>W3.CSS Modal</h2>
+        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Modal</button> -->
+        
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+            <div class="w3-container" style="text-align:center; padding: 2%">
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <p>Seguro que desea salir?</p>
+                <!-- <div class="w3-container w3-half" style="width: 100%;"> -->
+                    <div class="relativeContacto" style="margin-top: 5%;">
+                    <div class="container">
+                        <div>
+                            <button onclick="document.getElementById('id01').style.display='none'" style="font-family:Montserrat;" id="cancel">Salir</button>
+                        </div>
+                        <div>
+                            <a href="#"><button onclick="document.getElementById('id01').style.display='none'"  style="font-family:Montserrat;" id="submit">Seguir en reserva</button></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/booking/booking.css">
+    <link href="css/fonts/LibreBaskerville.css" rel="stylesheet">
+    <link href="css/fonts/Montserrat.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/responisve.css">
+    <title>LO DE BERNAL | BOOKING</title>
+    <link rel="icon" type="image/ico" href="img/logo.png"/>
+</head>
+<style>
+</style>
+<body>
+    <header>
+        <input type="checkbox" id="btnmenu"/>
+        <label for="btnmenu"><img src="img/menu.png" alt="image" /></label>
+        <nav>
+            <ul>
+                <li><img src="img/logo.png" alt="" width="70px" height="70px"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="actividades.html">Actividades</a></li>
+                <li><a href="#">English</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="w3-row w3-border">
+            <div class="w3-container w3-half">
+                <div class="relativeB1">
+                    <h1 class="text8" style="font-family:Libre Baskerville;">Habitaciones Disponibles</h1>
+                </div>
+                <div class="relativeB2">
+                    <p style="font-family:Montserrat; font-size: 15px;" >
+                        La asignación de camas es sujeta a disponibilidad. En caso de reservar para 3 personas se agrega un cargo extra.
+                    </p>
+                    <br>
+                    <p style="font-family:Montserrat; font-size: 15px;" >
+                        Check in: 15:00 hrs.
+                    </p>
+                    <br>
+                    <p style="font-family:Montserrat; font-size: 15px;" >
+                        Check out: 13:00 hrs. 
+                    </p>
+                    <br>
+                    <p style="font-family:Montserrat; font-size: 15px;" >
+                        Cargo por persona extra: Q.184.00
+                    </p>
+                </div>
+            </div>
+            <div class="w3-container w3-half" style="height:420px">
+                <div class="relativeB">
+                    <div class="container" style="text-align:center; padding: 25px;">
+                        <div>
+                            <label class="date font-date">llegada 
+                            <br>
+                            <input type="date" id="dateInput" class="inp-size" /></label><span class="supportHint" id="dateSupported"></span>
+                        </div>
+                        <div>
+                            <label class="date font-date">Salida 
+                            <br>
+                            <input type="date" id="dateInput" class="inp-size" /></label><span class="supportHint" id="dateSupported"></span>
+                        </div>
+                        <div>
+                        </div>
+                        <div style="margin-top: 5mm">
+                            <label style="font-size:13px; color: white;" for="input">Cantidad de personas:</label>
+                        </div>
+                        <div style="margin-top: 5mm">
+                            <input class="inp-size" type="number">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-container w3-half" id="alfSpecial">
+            </div>
+            <div class="w3-container w3-half" id="alfSpecial2">
+                <main class="grid">
+                    <div class="containerButton">
+                        <img src="img/habitacion3.png" alt="Sample photo">
+                        <button type="button" class="bottom-right">+</button>
+                    </div>
+                    <div class="relativeB4">
+                        <div class="relativeText">
+                            <p style="font-family:Montserrat; font-size: 18px; font-weight: bolder;">De Lujo</p><br>
+                            <p style="font-family:Montserrat; font-size: 12px;" >Nuestra habitación Deluxe, combina su estilo colonial con modernidad. Cuenta con cama queen o dos camas dobles.</p><br>
+                            <p style="font-family:Montserrat; font-size: 12px; font-weight: bolder;">Precio: Q.516.00</p><br>
+                            <p style="font-family:Montserrat; font-size: 12px; font-weight: bolder;">Añadir habitación <input type="checkbox" name="vehicle2" value="Car"></p>
+
+                        </div>
+                    </div>
+                    <div class="containerButton">
+                        <img src="img/habitacion1.png" alt="Sample photo">
+                        <button type="button" class="bottom-right">+</button>
+                    </div>
+                    <div class="relativeB4">
+                        <div class="relativeText">
+                            <p style="font-family:Montserrat; font-size: 18px; font-weight: bolder;">Estándar</p><br>
+                            <p style="font-family:Montserrat; font-size: 12px;" >Habitación con finos acabados, tiene a su elección una cama tamaño queen o dos camas dobles.</p><br>
+                            <p style="font-family:Montserrat; font-size: 12px; font-weight: bolder;">Precio: Q.447.00</p><br>
+                            <p style="font-family:Montserrat; font-size: 12px; font-weight: bolder;">Añadir habitación <input type="checkbox" name="vehicle2" value="Car"></p>
+                        </div>
+                    </div>
+                    <div class="containerButton">
+                        <img src="img/habitacion2.png" alt="Sample photo">
+                        <button type="button" class="bottom-right">+</button>
+                    </div>
+                    <div class="relativeB4">
+                        <div class="relativeText">
+                            <p style="font-family:Montserrat; font-size: 18px; font-weight: bolder;">Máster</p><br>
+                            <p style="font-family:Montserrat; font-size: 12px;" >Decorada con detalles coloniales, tiene una cama king, mesa en terraza privada, aire acondicionado, minibar, amenidades lavarino, reproductor de DVD</p><br>
+                            <p style="font-family:Montserrat; font-size: 12px; font-weight: bolder;">Precio: Q.631.00</p><br>
+                            <p style="font-family:Montserrat; font-size: 12px; font-weight: bolder;">Añadir habitación <input type="checkbox" name="vehicle2" value="Car"></p>
+                        </div>
+                    </div>
+                    <div>
+                        <button onclick="document.getElementById('id01').style.display='block'" style="font-family:Montserrat;" id="cancel">Salir</button>
+                    </div>
+                    <div>
+                        <a href="contacto.html"><button style="font-family:Montserrat;" id="submit">Continuar</button></a>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <div class="w3-container w3-half" style="width: 100%; padding: 0%; margin-top: 5%; background: #f4f2ea; color:#9f7722">
+            <div class="w3-container w3-half" id="f1">
+                <p style="font-family:Montserrat; font-size: 13px">Tel: (502) 78323242</p>
+                <p style="font-family:Montserrat; font-size: 13px">reservaciones@lodebernal.com</p>
+            </div>
+            <div class="w3-container w3-half" id="f2">
+                <table>
+                    <th><img src="img/map.png" alt=""></th>
+                    <th><img src="img/waze.png" alt=""></th>
+                    <th><img src="img/trip.png" alt=""></th>
+                    <th><img src="img/ig.png" alt=""></th>
+                    <th><img src="img/fb.png" alt=""></th>
+                </table>
+            </div>
+            <div class="w3-container w3-half" id="f3">
+                <p style="font-family:Montserrat; font-size: 13px">1A Calle Poniente, #23</p>
+                <p style="font-family:Montserrat; font-size: 13px">Política de privacidad y cookies</p>
+            </div>
+        </div>
+    </main> 
+
+    <!-- Modal salir -->
+
+    <div class="w3-container">
+        <!-- <h2>W3.CSS Modal</h2>
+        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Modal</button> -->
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+            <div class="w3-container" style="text-align:center; padding: 2%">
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <p>Seguro que desea salir?</p>
+                <!-- <div class="w3-container w3-half" style="width: 100%;"> -->
+                    <div class="relativeContacto" style="margin-top: 5%; margin-left: 25%">
+                    <div class="container">
+                        <div>
+                            <button onclick="document.getElementById('id01').style.display='none'" style="font-family:Montserrat;" id="cancel">Salir</button>
+                        </div>
+                        <div>
+                            <a href="#"><button onclick="document.getElementById('id01').style.display='none'"  style="font-family:Montserrat;" id="submit">Seguir en reserva</button></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

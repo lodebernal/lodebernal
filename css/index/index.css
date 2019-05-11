@@ -1,0 +1,259 @@
+#section1 {
+    background: url('header.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 30cm; */
+}
+
+#section3 {
+    background: url('actividades.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 30cm; */
+}
+/* 
+#section4 {
+    background: url('footInfo.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}*/
+
+div.relative {
+    position: absolute;
+    width: 450px;
+    height: 770px;
+    right: 0;
+    background-color: rgba(255, 85, 0, 0.247);
+}
+
+div.relative2 {
+    position: relative;
+    left: 10mm;
+    top: 105mm;
+    width: 350px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 20px;
+}
+
+#submit {
+    background-color: #6d180f;
+    padding: .5em;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    width: 90mm;
+    text-decoration: none;
+    border: none;
+  }
+  
+  #submit:hover {
+    border: none;
+    background: orange;
+    box-shadow: 0px 0px 1px #6d180f;
+  }
+
+div.relative3 {
+    position: relative;
+    top: 20mm;
+    left: 30mm;
+    width: 300px;
+    text-align: left;
+}
+
+div.relative4 {
+    position: relative;
+    text-align: right;
+    top: 30mm;
+}
+
+div.relative5 {
+    /* top: 5mm; */
+    position: relative;
+    /* text-align: left; */
+    /* height: 600px; */
+}
+
+div.relative6 {
+    top: 8mm;
+    position: relative;
+    text-align: left;
+}
+.containerOverlay {
+    width: 60%;
+    float: right;
+    padding: 0px;
+  }
+
+  .containerOverlay2 {
+    width: 100%;
+    float: right;
+    padding: 0px;
+  }
+  
+  .containerImg {
+    position: relative;
+    width: 100%;
+    /* margin-top: 60px; */
+  }
+  
+  .containerImg a {
+    color: #fff;
+  }
+
+
+  .containerImg2 {
+    position: relative;
+    width: 100%;
+    /* margin-top: 60px; */
+  }
+  
+  .containerImg2 a {
+    color: #fff;
+  }
+  
+  
+  img.image1 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  img.image2 {
+    display: block;
+    position: relative;
+    width: 60%;
+    height: 490px;
+    object-fit: cover;
+  }
+
+  img.image3 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 12mm;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: -50%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgb(109, 24, 15, 0.8);
+  }
+  
+  .containerImg:hover .overlay {
+    width: 100%;
+    left: 0;
+    display: block;
+  }
+
+  .containerImg2:hover .overlay {
+    width: 60%;
+    left: 0;
+    display: block;
+  }
+  
+  
+  .text {
+    /* font-weight: 700; */
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    top: 60%;
+    left: 50%;
+    padding: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: left;
+    text-shadow: .1px .1px .1px #262626;
+  }
+  
+  /*querys*/
+  
+  @media (max-width: 992px){
+    img.image {
+      height: 400px;
+    }
+  }
+  
+  @media (max-width: 620px){
+    .containerOverlay{
+      width: 100%;
+    }
+  }
+
+div.relative8 {
+    position: relative;
+    left: 30%;
+    top: 40%;
+    width: 500px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 597px){
+    div.relative8  {
+        width: 300px;
+        clear: both;
+        margin-left: 0;
+        left: 0;
+        /* margin-top: 100px; */
+    }
+    img.image3{
+        top:0mm;
+    }
+    section.special {
+      height: 2100px;
+    }
+    div.relative{
+      /* height: 00px; */
+      /* top: 5cm; */
+      left: 0;
+      width: auto;
+    } 
+
+    div.relative2{
+      /* height: 00px; */
+      /* top: 5cm; */
+      /* left: 30mm; */
+      /* top: 35mm; */
+      width: auto;
+      padding: 0.1%
+    }
+    #submit{
+      width: 220px;
+    }
+    .containerOverlay {
+      width: 100%;
+    }
+    img.image2{
+      width: 100%;
+    }
+    .containerImg2:hover .overlay {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    div.relative3  {
+        width: 300px;
+        clear: both;
+        margin-left: 0;
+        left: 0;
+        /* margin-top: 100px; */
+    }
+}
+
